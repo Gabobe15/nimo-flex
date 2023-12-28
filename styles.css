@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: plum;
+    margin: 0 10px
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+div{
+    flex-basis: 32%;
+    margin: 10px 0;
+    border: 2px  dotted;
+    padding: 10px ;
+    position: relative;
+}
+
+h1{
+    border: 2px solid;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    top: -15px;
+    width: 94%;
+    background-color: gainsboro;
+}
+
+h1, p{
+    color: purple;
+}
+
+p{
+    margin: 15px 0;
+}
+
+article{
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+}
