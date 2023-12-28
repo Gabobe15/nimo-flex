@@ -7,6 +7,7 @@ body{
     background-color: plum;
     margin: 0 10px
 }
+
 section{
     display: flex;
     justify-content: space-around;
@@ -23,6 +24,7 @@ div{
 }
 
 h1{
+    padding-left: 10px;
     border: 2px solid;
     height: 30px;
     align-items: center;
